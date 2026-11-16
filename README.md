@@ -1,5 +1,7 @@
 # PuckAPI Skills
 
+> **The maintained version lives at [PuckAPI/claude-sports-analytics](https://github.com/PuckAPI/claude-sports-analytics)**, with the current skills, the Claude plugin and install steps. This copy is kept for existing clones and is not updated.
+
 Hockey analytics skills for Claude Code. 28 skills covering NHL analytics, betting methodology, and model building.
 
 Free skills. Paid data via [PuckAPI](https://puckapi.com) MCP server.
@@ -24,7 +26,7 @@ Skills work without the MCP server using your own CSV/JSON files.
 
 ## How Skills Work
 
-Skills are markdown files that Claude reads as context -- they are not executable code. There is nothing to install, compile, or run. The skills teach Claude how to use the 12 PuckAPI tools effectively, providing domain knowledge, methodology, anti-patterns, and code templates.
+Skills are markdown files that Claude reads as context -- they are not executable code. There is nothing to install, compile, or run. The skills teach Claude how to use the PuckAPI tools (28 today; the live list is at https://mcp.puckapi.com/v1/tools) effectively, providing domain knowledge, methodology, anti-patterns, and code templates.
 
 1. **Clone the repo** (above). That gives you the skill files on disk.
 2. **Add the MCP server** with `claude mcp add` (above). This connects Claude to the PuckAPI data endpoints.
